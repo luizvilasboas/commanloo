@@ -1,0 +1,11 @@
+# Objects folder
+obj
+
+# Binary folder
+bin
+
+# Binary folder under test folder
+test/bin
+
+# Coverage file
+coverage.xml
