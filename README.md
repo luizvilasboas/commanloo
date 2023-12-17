@@ -85,7 +85,7 @@ docker run -it --rm olooeez/commanloo:latest
 
 ## Contributing
 
-If you would like to contribute to this project, please feel free to open a pull request. All contributions are welcome!
+If you would like to contribute to this project, please feel free to open a merge request. All contributions are welcome!
 
 ## License
 
