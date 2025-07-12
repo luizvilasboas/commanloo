@@ -4,7 +4,7 @@ This is a project I did for Algorithm and Data Structure at the Federal Universi
 
 ## Demo
 
-![Demo of commanloo](https://gitlab.com/olooeez/commanloo/-/raw/main/img/demo.png)
+![Demo of commanloo](https://github.com/luizvilasboas/commanloo/blob/main/img/demo.png?raw=true)
 
 ## Usage
 
@@ -22,7 +22,7 @@ You can use the following options to use commanloo:
 To run commanloo, you must clone this repository with the following command:
 
 ```
-git clone https://gitlab.com/olooeez/commanloo.git
+git clone https://github.com/luizvilasboas/commanloo.git
 ```
 
 #### Enter the cloned repository
@@ -56,7 +56,7 @@ Finally use the command below to run the project:
 To run the program in a docker container, clone the repository to your machine first:
 
 ```
-git clone https://gitlab.com/olooeez/commanloo.git
+git clone https://github.com/luizvilasboas/commanloo.git
 ```
 
 #### Enter the cloned repository
@@ -89,4 +89,4 @@ If you would like to contribute to this project, please feel free to open a merg
 
 ## License
 
-This project is licensed under the [MIT](https://gitlab.com/olooeez/commanloo/-/blob/main/LICENSE) License. See the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/luizvilasboas/commanloo/blob/main/LICENSE) License. See the LICENSE file for details.
