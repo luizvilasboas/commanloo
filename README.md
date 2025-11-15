@@ -1,92 +1,84 @@
 # commanloo
 
-This is a project I did for Algorithm and Data Structure at the Federal University of Viçosa. In it, we have a simple game in which the objective is to reach the end in a certain number of tries, using data structures to store the movements.
+> A simple C-based game where the goal is to reach the end of a maze within a certain number of moves.
 
-## Demo
+## About the Project
+
+This project is a simple terminal-based game developed for an Algorithms and Data Structures course at the Federal University of Viçosa. The objective is to navigate a maze and reach the end within a limited number of attempts, using data structures to manage player movements.
 
 ![Demo of commanloo](https://github.com/luizvilasboas/commanloo/blob/main/img/demo.png?raw=true)
 
+## Tech Stack
+
+The main technologies used in this project are:
+
+*   [C](https://en.wikipedia.org/wiki/C_(programming_language))
+*   [Make](https://www.gnu.org/software/make/)
+*   [Docker](https://www.docker.com/)
+
 ## Usage
 
-Below is how you can use commanloo. Feel free to fork or copy them, but be aware of the limitations that this repository license implies.
+You can run this project either directly on your machine or within a Docker container.
 
-You can use the following options to use commanloo:
+### Prerequisites
 
-1. [Run in your machine](#run-in-your-machine)
-2. [Run in a Docker container](#run-in-a-docker-container)
+*   For local execution: [GNU Make](https://www.gnu.org/software/make/)
+*   For containerized execution: [Docker](https://docs.docker.com/get-docker/)
 
-### Run in your machine
+### Installation and Setup (Local Machine)
 
-#### Clone the repo
+Follow the steps below:
 
-To run commanloo, you must clone this repository with the following command:
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/luizvilasboas/commanloo.git
+    ```
 
-```
-git clone https://github.com/luizvilasboas/commanloo.git
-```
+2.  **Navigate to the project directory**
+    ```bash
+    cd commanloo
+    ```
 
-#### Enter the cloned repository
+3.  **Compile the project**
+    ```bash
+    make
+    ```
 
-After cloning, you must enter the local repository using the following command:
+4.  **Run the application**
+    ```bash
+    ./bin/commanloo
+    ```
 
-```
-cd commanloo
-```
+### Installation and Setup (Docker)
 
-#### Use GNU Make to compile the project
+Follow the steps below:
 
-Install [GNU Make](https://gnu.org/software/make) on your system and run it with the command bellow:
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/luizvilasboas/commanloo.git
+    ```
 
-```
-make
-```
+2.  **Navigate to the project directory**
+    ```bash
+    cd commanloo
+    ```
 
-#### Run the project
+3.  **Build the Docker image**
+    ```bash
+    docker build -t olooeez/commanloo:latest .
+    ```
 
-Finally use the command below to run the project:
-
-```
-./bin/commanloo
-```
-
-### Run in a Docker container
-
-#### Clone the repo
-
-To run the program in a docker container, clone the repository to your machine first:
-
-```
-git clone https://github.com/luizvilasboas/commanloo.git
-```
-
-#### Enter the cloned repository
-
-After cloning, you must enter the local repository using the following command:
-
-```
-cd commanloo
-```
-
-#### Build the docker image
-
-Then, use the command below to build the Docker image:
-
-```
-docker build -t olooeez/commanloo:latest .
-```
-
-#### Run the image in a container
-
-Then, to run the image in a container, use the following command:
-
-```
-docker run -it --rm olooeez/commanloo:latest
-```
+4.  **Run the image in a container**
+    ```bash
+    docker run -it --rm olooeez/commanloo:latest
+    ```
 
 ## Contributing
 
-If you would like to contribute to this project, please feel free to open a merge request. All contributions are welcome!
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/luizvilasboas/commanloo/blob/main/LICENSE) License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
